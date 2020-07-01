@@ -60,24 +60,24 @@ section{
 
 .work h2{
     text-align: center;
+    font-size: 40px;
 
 }
+
 #latest-work{
-    height: 500px; 
+    height: 400px; 
     padding-bottom: 100px;
-    background-image: url("images/biography-bg.png");
+    background-image: url("images/latest-work-bg.png");
     background-repeat: no-repeat;
     background-position: left;
 }
 
 .work-images{
-    width: 27%;
+    width: 30%;
     height: 200px;
     float: left;
     margin-left: 3%;
-    margin-right: 3%;
-    padding-left:;
-
+    
 }
 .work-images img{
         width: 100%;
@@ -86,25 +86,28 @@ section{
 
 
 .client-feedback{
-    width: 27%;
-    height: 200px;
+    text-align: justify;
+    width: 30%;
+    height: 300px;
     float: left;
     margin-left: 3%;
-    margin-right: 3%;
+    margin-top: 100px;
+
+    
 }
 .email{
     height: 150px;
-    width: 70%;
+    width: 60%;
     text-decoration: none;
     text-align: center;
     background-image:linear-gradient(45deg, hsl(335, 86%, 49%),#e91288);
     color: white;
     font-weight: 700;
     border-radius: 10px;
-    margin-left: 180px;
-    margin-top: 10px;
+    margin-left: 200px;
+    margin-top: 200px;
     margin-right: 180px;
-    margin-bottom: 50px;
+    margin-bottom: 180px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -112,4 +115,8 @@ section{
 footer p{
     text-align: center;
     font-size: 12px;
+}
+.footer-bg{
+background-image: url(images/footer-bg.png);
+
 }
