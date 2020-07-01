@@ -5,7 +5,7 @@ body{
 }
 
 h1{
-    font-weight: bolder;
+    font-weight: 900;
     font-size: 50px;
 }
 .pink-highlight{
@@ -17,6 +17,9 @@ p{
 .align{
     margin-top: 100px;
 }
+.right-align{
+    margin-top: 100px;
+}
 .half-width{
     width: 40%;
     float: left;
@@ -25,8 +28,7 @@ p{
 }
 
 .half-width img{
-    width: 120%;
-    margin: 100px;
+    width: 100%;
 }
 
 .header-bg{
@@ -49,10 +51,10 @@ section{
     
 }
 
-.drem-area{
-    background-image: url("images/dream-bg.png");
+.biography{
+    background-image: url("images/biography-bg.png");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: left;
 }
 
 
