@@ -34,6 +34,7 @@ p{
 .header-bg{
     background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
+    background-position: right;
 }
 
 section{
@@ -64,7 +65,9 @@ section{
 #latest-work{
     height: 500px; 
     padding-bottom: 100px;
-    background-image: url(images/latest-work-bg.png);
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
 .work-images{
@@ -78,6 +81,32 @@ section{
 }
 .work-images img{
         width: 100%;
+}
+
+
+
+.client-feedback{
+    width: 27%;
+    height: 200px;
+    float: left;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.email{
+    height: 150px;
+    width: 70%;
+    text-decoration: none;
+    text-align: center;
+    background-image:linear-gradient(45deg, hsl(335, 86%, 49%),#e91288);
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-left: 180px;
+    margin-top: 10px;
+    margin-right: 180px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 footer p{
