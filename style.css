@@ -91,10 +91,14 @@ section{
     height: 300px;
     float: left;
     margin-left: 3%;
-    margin-top: 100px;
-
-    
+    margin-top: 100px;  
 }
+#client-bg{
+    width: 100%;
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    }
+
 .email{
     height: 150px;
     width: 60%;
@@ -115,8 +119,4 @@ section{
 footer p{
     text-align: center;
     font-size: 12px;
-}
-.footer-bg{
-background-image: url(images/footer-bg.png);
-
 }
